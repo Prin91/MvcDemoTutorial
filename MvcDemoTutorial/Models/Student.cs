@@ -8,7 +8,7 @@ namespace Demo.Models
 {
     public class Student
     {
-      [Key]
+        [Key]
         public int Student_Id { get; set; }
         public String FirstName { get; set; }
         public String MiddleName { get; set; }
@@ -24,4 +24,5 @@ namespace Demo.Models
         public DateTime DOB { get; set; }
         public String AboutMe { get; set; }
     }
+
 }
