@@ -1,17 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
-namespace Demo.Models
+namespace MvcDemoTutorial.Models
 {
     public class Student
     {
         [Key]
         public int Student_Id { get; set; }
+
+        [Display(Name = "First Name")]
         public String FirstName { get; set; }
+        [Display(Name = "Middle Name")]
         public String MiddleName { get; set; }
+        [Display(Name = "Last Name")]
         public String LastName { get; set; }
         public String Gender { get; set; }
         public String SSN { get; set; }
@@ -24,5 +25,5 @@ namespace Demo.Models
         public DateTime DOB { get; set; }
         public String AboutMe { get; set; }
     }
-
 }
+    
