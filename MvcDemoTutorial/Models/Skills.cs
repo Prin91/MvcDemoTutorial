@@ -9,6 +9,6 @@ namespace MvcDemoTutorial.Models
         public int Skill_Id { get; set; }
         public int Student_Id { get; set; }
         public String SkillName { get; set; }
-        public String Skill_Level { get; set; }
+        public int Skill_Level { get; set; }
     }
 }
